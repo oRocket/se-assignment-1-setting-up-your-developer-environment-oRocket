@@ -262,3 +262,57 @@ Following these steps should help you successfully install Windows 10 on your co
     deactivate
     ```
 
+## Installation of MySql
+1. Download MySQL
+    - Go to the MySQL from:
+    - `https://dev.mysql.com/downloads/windows/installer/5.7.html`
+    ![mysql.png](images/mysql.png)
+    - Click on "MySQL Installer for Windows".
+    - Choose the "Windows (x86, 32-bit), MSI Installer" or the "Windows (x86, 64-bit), MSI Installer" based on your system.
+    - Click "Download" and then "No thanks, just start my download" if you don't want to create an Oracle Web account.
+    ![no_thanks.png](images/no_thanks.png)
+2. Install MySQL
+    - Run the downloaded MySQL Installer `.msi` file.
+
+    - In the setup window, choose the setup type:
+
+    - Developer Default: Installs the `MySQL server` and other required tools for development.
+    - Server only: Installs only the `MySQL server`.
+    - Custom: Allows you to choose the specific components to install.
+    - Click `"Next"` and then `"Execute"` to download and install the necessary components.
+
+3. Configure MySQL
+    - Once installation is complete, the `MySQL Installer` will guide you through configuration.
+
+    - Choose the type of MySQL server you want to configure:
+
+        - Standalone MySQL Server: For most single-machine setups.
+        - InnoDB Cluster: For more complex setups with high availability.
+        - Click `"Next"` and follow the steps to configure the server:
+
+    - Server Configuration:
+        - Choose "Development Computer" for minimal memory usage.
+        - Leave the default port (3306) unless you have a reason to change it.
+    - Authentication Method:
+        - Choose "Use Strong Password Encryption".
+    - Accounts and Roles:
+        - Set the root password.
+        - (Optional) Create additional user accounts.
+    - Windows Service:
+        - Ensure `"Configure MySQL Server as a Windows Service"` is checked.
+        - Choose the service name (default is fine).
+        - Start the `MySQL Server` at system startup.
+        - Click `"Next"` and then `"Execute"` to apply the configuration.
+
+4. Complete the Installation
+    - Once the configuration is applied, click `"Finish"`.
+    - Optionally, the installer may ask if you want to open MySQL Workbench and MySQL Shell. These are useful tools for managing and using your MySQL server.
+
+5. Verify the Installation
+    - Open a command prompt.
+    - Connect to the MySQL server using the MySQL client:
+    ```
+    mysql -u root -p
+    ```
+    - Enter the root password you set during configuration.
+    - You should now be at the MySQL prompt. You can run SQL commands here to ensure everything is working.
