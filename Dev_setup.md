@@ -27,7 +27,7 @@
         Run the tool and select "Create installation media (USB flash drive, DVD, or ISO file) for another PC".
         Select the language, edition, and architecture (64-bit or 32-bit).
         Choose "USB flash drive" and follow the prompts to create the bootable USB drive.
-        ![Link Name](Link URL)
+        ![windowsIM.png](images/windowsIM.png)
 
 3. Install Windows 10
     - 3.1 Boot from USB Drive
