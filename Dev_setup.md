@@ -79,7 +79,7 @@
 Following these steps should help you successfully install Windows 10 on your computer.
 
 ## Installation of Visual Studio Code
-1. Download VS Code
+1. **Download VS Code**
     - Go to the Visual Studio Code download page.
     ```
     https://code.visualstudio.com/download
@@ -87,7 +87,7 @@ Following these steps should help you successfully install Windows 10 on your co
     ![VSCode.png](images/VSCode.png)
     - Choose the appropriate version for the above operating system (Windows).
 
-2. Install VS Code
+2. **Install VS Code**
     - Run the downloaded .exe file.
     - Follow the installation wizard:
     - Accept the license agreement.
@@ -95,12 +95,118 @@ Following these steps should help you successfully install Windows 10 on your co
     - Select additional tasks (e.g., creating a desktop icon).
     - Click "Install" and then "Finish" once the installation is complete.
 
-3. Launch VS Code
+3. **Launch VS Code**
     - Use the Start menu or double-click the desktop icon.
 
-4. Install Extensions
+4. **Install Extensions**
     - Open VS Code
     - Click on the Extensions icon in the Activity Bar on the side of the window or press Ctrl+Shift+X (Windows/Linux) or Cmd+Shift+X (macOS).
     - Search for extensions you need (like Python, JavaScript, etc.).
     - Click "Install" on the desired extensions.
     ![python.png](images/python.png)
+
+
+## Installation Git and Git Bash for Windows 10
+1. **Download Git**:
+    - Go to the Git download page.
+    ```
+    https://gitforwindows.org/
+    ```
+    ![git.png](images/git.png)
+
+    **Install Git**:
+    - Run the downloaded installer.
+    - Follow the installation wizard, leaving the default settings unless you need specific configurations.
+
+2. **Configure Git**
+    - Open Git Bash:
+    Search for "Git Bash" in the Start menu.
+    - Set Your Username and Email:
+    ```
+    git config --global user.name "Your Name"
+    git config --global user.email "youremail@example.com"
+    ```
+
+3. **Create a GitHub Account**
+    - Sign Up:
+        - Go to GitHub.
+        ```
+        https://github.com/
+        ```
+        ![github.png](images/github.png)
+        - Click "Sign up" and follow the instructions to create an account.
+
+4. **Initialize a Git Repository and Make Your First Commit**
+    - Create a New Repository on GitHub:
+        - Go to your GitHub account.
+        - Click on "New" or select "New repository".
+        ![repo.png](images/repo.png)
+        - Name your repository and click "Create repository".
+        - Write description (optional)
+        - Add a README file
+        - Click on "create repository"
+        ![demo.png](images/demo.png)
+        - Copy `url` for repository
+        `https://github.com/oRocket/demo-repo.git`
+        ![demo.png](images/demo.png)
+    
+    - Navigate to Your Project Directory using git bash:
+    ```
+    Albert@DESKTOP-GB4MVIN MINGW64 ~
+    $ cd desktop
+
+    Albert@DESKTOP-GB4MVIN MINGW64 ~/desktop (master)
+    $ mkdir myFirstDirectory
+
+    Albert@DESKTOP-GB4MVIN MINGW64 ~/desktop (master)
+    $ cd myFirstDirectory
+
+    Albert@DESKTOP-GB4MVIN MINGW64 ~/desktop/myFirstDirectory (master)
+    $
+    ```
+    - Clone into your repository:
+    ```
+    Albert@DESKTOP-GB4MVIN MINGW64 ~/desktop/myFirstDirectory (master)
+    $ git clone https://github.com/oRocket/demo-repo.git
+    Cloning into 'demo-repo'...
+    remote: Enumerating objects: 3, done.
+    remote: Counting objects: 100% (3/3), done.
+    remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+    Receiving objects: 100% (3/3), done.
+
+    Albert@DESKTOP-GB4MVIN MINGW64 ~/desktop/myFirstDirectory (master)
+    $
+
+    Albert@DESKTOP-GB4MVIN MINGW64 ~/desktop/myFirstDirectory (master)
+    $ ls
+    demo-repo/
+
+    Albert@DESKTOP-GB4MVIN MINGW64 ~/desktop/myFirstDirectory (master)
+    $ cd demo-repo/
+
+    Albert@DESKTOP-GB4MVIN MINGW64 ~/desktop/myFirstDirectory/demo-repo (main)
+    $ ls
+    README.md
+
+    Albert@DESKTOP-GB4MVIN MINGW64 ~/desktop/myFirstDirectory/demo-repo (main)
+    $
+    ```
+    - Write your code
+    `Albert@DESKTOP-GB4MVIN MINGW64 ~/desktop/myFirstDirectory/demo-repo (main)
+    $ vim README.md`
+
+    - Commit Your Changes:
+    ```
+    Albert@DESKTOP-GB4MVIN MINGW64 ~/desktop/myFirstDirectory/demo-repo (main)
+    $ git add .
+
+    Albert@DESKTOP-GB4MVIN MINGW64 ~/desktop/myFirstDirectory/demo-repo (main)
+    $ git commit -m "My first commit message"
+    [main d6c30b3] My first commit message
+    1 file changed, 3 insertions(+), 1 deletion(-)
+
+    Albert@DESKTOP-GB4MVIN MINGW64 ~/desktop/myFirstDirectory/demo-repo (main)
+    $ git push
+    ```
+
+
