@@ -1,7 +1,7 @@
 # Document detailing the setup process with step-by-step instructions
 
 ## Operating System (OS)
-**1. Prepare for Installation of Windows 10**
+1. **Prepare for Installation of Windows 10**
     - 1.1 System Requirements
         - Processor: 1 GHz or faster compatible processor
         - RAM: 1 GB for 32-bit or 2 GB for 64-bit
@@ -20,16 +20,16 @@
         ```
         ![Windows10download.png](images/Windows10download.png)
 
-2.2 Create Bootable USB
-    - Use the Windows Media Creation Tool or a third-party tool like Rufus to create a bootable USB drive.
-        Using Windows Media Creation Tool:
-        Download the Media Creation Tool from the Microsoft website.
-        Run the tool and select "Create installation media (USB flash drive, DVD, or ISO file) for another PC".
-        Select the language, edition, and architecture (64-bit or 32-bit).
-        Choose "USB flash drive" and follow the prompts to create the bootable USB drive.
+    - 2.2 Create Bootable USB
+        - Use the Windows Media Creation Tool or a third-party tool like Rufus to create a bootable USB drive.
+        - Using Windows Media Creation Tool:
+        - Download the Media Creation Tool from the Microsoft website.
+        - Run the tool and select "Create installation media (USB flash drive, DVD, or ISO file) for another PC".
+        - Select the language, edition, and architecture (64-bit or 32-bit).
+        - Choose "USB flash drive" and follow the prompts to create the bootable USB drive.
         ![windowsIM.png](images/windowsIM.png)
 
-3. Install Windows 10
+3. **Install Windows 10**
     - 3.1 Boot from USB Drive
         - Insert the bootable USB drive into the computer.
         - Restart the computer and enter the BIOS/UEFI settings (commonly done by pressing a key like F2, F12, DEL, or ESC during startup).
@@ -50,7 +50,7 @@
         - Choose the partition where you want to install Windows 10. If you're performing a clean installation, you can delete existing partitions and create a new one.
         - Select the partition and click "Next". The installation will begin.
 
-4. Complete Installation
+4. **Complete Installation**
     - 4.1 Initial Setup
         - The computer will restart several times during the installation process.
         - Follow the on-screen instructions to set up your region, keyboard layout, and time zone.
@@ -65,7 +65,7 @@
         - Customize additional settings if prompted, or choose the default settings.
         - Windows will finalize the setup and bring you to the desktop.
 
-5. Post-Installation Steps
+5. **Post-Installation Steps**
     - 5.1 Install Updates
         - Go to Settings > Update & Security > Windows Update and check for updates. Install all available updates.
     - 5.2 Install Drivers
