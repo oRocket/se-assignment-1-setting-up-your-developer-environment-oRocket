@@ -18,7 +18,7 @@
         ```
         https://www.microsoft.com/en-us/software-download/windows10
         ```
-        ![Link Name](Link URL)
+        ![Windows10download.png](images/Windows10download.png)
 
 2.2 Create Bootable USB
     - Use the Windows Media Creation Tool or a third-party tool like Rufus to create a bootable USB drive.
