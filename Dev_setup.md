@@ -15,7 +15,9 @@
 2. Create a Bootable USB Drive
     - 2.1 Download Windows 10 ISO
         - Download the Windows 10 ISO file from the official Microsoft website.
-        `https://www.microsoft.com/en-us/software-download/windows10`
+        ```
+        https://www.microsoft.com/en-us/software-download/windows10
+        ```
         ![Link Name](Link URL)
 
 2.2 Create Bootable USB
