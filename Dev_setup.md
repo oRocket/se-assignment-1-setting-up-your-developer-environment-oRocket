@@ -75,5 +75,32 @@
     - 5.4 Restore Data
         - Restore your backed-up data to your new Windows 10 installation.
         
-## Conclusion
+**Conclusion**
 Following these steps should help you successfully install Windows 10 on your computer.
+
+## Installation of Visual Studio Code
+1. Download VS Code
+    - Go to the Visual Studio Code download page.
+    ```
+    https://code.visualstudio.com/download
+    ```
+    ![VSCode.png](images/VSCode.png)
+    - Choose the appropriate version for the above operating system (Windows).
+
+2. Install VS Code
+    - Run the downloaded .exe file.
+    - Follow the installation wizard:
+    - Accept the license agreement.
+    - Choose the installation location.
+    - Select additional tasks (e.g., creating a desktop icon).
+    - Click "Install" and then "Finish" once the installation is complete.
+
+3. Launch VS Code
+    - Use the Start menu or double-click the desktop icon.
+
+4. Install Extensions
+    - Open VS Code
+    - Click on the Extensions icon in the Activity Bar on the side of the window or press Ctrl+Shift+X (Windows/Linux) or Cmd+Shift+X (macOS).
+    - Search for extensions you need (like Python, JavaScript, etc.).
+    - Click "Install" on the desired extensions.
+    ![python.png](images/python.png)
