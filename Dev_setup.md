@@ -1,7 +1,7 @@
 # Document detailing the setup process with step-by-step instructions
 
 ## Operating System (OS)
-1. Prepare for Installation of Windows 10
+**1. Prepare for Installation of Windows 10**
     - 1.1 System Requirements
         - Processor: 1 GHz or faster compatible processor
         - RAM: 1 GB for 32-bit or 2 GB for 64-bit
@@ -12,7 +12,7 @@
     - 1.2 Backup Important Data
         - Backup all important files and data to an external drive or cloud storage.
 
-2. Create a Bootable USB Drive
+2. **Create a Bootable USB Drive**
     - 2.1 Download Windows 10 ISO
         - Download the Windows 10 ISO file from the official Microsoft website.
         ```
