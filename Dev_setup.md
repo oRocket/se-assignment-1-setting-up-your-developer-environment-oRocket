@@ -211,4 +211,54 @@ Following these steps should help you successfully install Windows 10 on your co
     $ git push
     ```
 
+## installation of Python 
+1. **Download Python**
+   - Go to the official Python website.
+   ```
+   https://www.python.org/
+   ```
+   ![py.png](images/py.png)
+   - Click on the "Downloads" tab.
+   - Choose the version you want to download (the latest stable version is recommended).
+
+2. **Install Python for Windows**
+   - Run the downloaded installer.
+   - Check the box that says "Add Python to PATH".
+   - Click "Install Now".
+   - Follow the prompts to complete the installation.
+
+3. **Verify the Installation**
+    - Open a command prompt or terminal.
+    - Check the Python version
+    ```
+    python --version
+    ```
+    ![cmd.png](images/cmd.png)
+
+4.  **Install pip (Python Package Installer)**
+    - Ensure pip is installed by running:
+    ```
+    python -m ensurepip --upgrade
+    ```
+
+5. **Install a Virtual Environment**
+    - Install virtualenv
+    ```
+    python -m pip install virtualenv
+    ```
+
+6. **Create a virtual environment:**
+    ```
+    python -m venv myenv
+    ```
+
+7. **Activate the virtual environment**
+    ```
+    source myenv\Scripts\activate
+    ```
+
+8. **Deactivate virtual environment**
+    ```
+    deactivate
+    ```
 
