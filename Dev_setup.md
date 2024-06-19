@@ -192,8 +192,10 @@ Following these steps should help you successfully install Windows 10 on your co
     $
     ```
     - Write your code
-    `Albert@DESKTOP-GB4MVIN MINGW64 ~/desktop/myFirstDirectory/demo-repo (main)
-    $ vim README.md`
+    ```
+    Albert@DESKTOP-GB4MVIN MINGW64 ~/desktop/myFirstDirectory/demo-repo (main)
+    $ vim README.md
+    ```
 
     - Commit Your Changes:
     ```
