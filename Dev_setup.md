@@ -145,10 +145,10 @@ Following these steps should help you successfully install Windows 10 on your co
         - Write description (optional)
         - Add a README file
         - Click on "create repository"
-        ![demo.png](images/demo.png)
+        ![repo_creation.png](images/repo_creation.png)
         - Copy `url` for repository
         `https://github.com/oRocket/demo-repo.git`
-        ![demo.png](images/demo.png)
+        ![copy_url.png](images/copy_url.png)
     
     - Navigate to Your Project Directory using git bash:
     ```
